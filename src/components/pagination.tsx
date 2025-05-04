@@ -4,7 +4,6 @@ import {
   ChevronsLeft,
   ChevronsRight,
 } from 'lucide-react'
-import React from 'react'
 import { Button } from './ui/button'
 
 interface PaginationProps {

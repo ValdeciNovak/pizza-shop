@@ -1,16 +1,10 @@
-import { ArrowRight, Search, UserSearch, X } from 'lucide-react'
-import React from 'react'
 import { Helmet } from 'react-helmet-async'
 import { Pagination } from '../../../components/pagination'
-import { Button } from '../../../components/ui/button'
-import { Input } from '../../../components/ui/input'
 import {
   Table,
-  TableBody,
-  TableCell,
-  TableHead,
+  TableBody, TableHead,
   TableHeader,
-  TableRow,
+  TableRow
 } from '../../../components/ui/table'
 import { OrderTableFilters } from './order-table-filters'
 import { OrderTableRow } from './order-table-row'

@@ -1,4 +1,3 @@
-import React from 'react'
 import { createBrowserRouter } from 'react-router-dom'
 import { NotFound } from './pages/404'
 import { AppLayout } from './pages/_layouts/app'

@@ -1,4 +1,3 @@
-import React from 'react'
 import { TableCell, TableRow } from '../../../components/ui/table'
 import { Button } from '../../../components/ui/button'
 import { Search } from 'lucide-react'

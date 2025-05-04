@@ -1,13 +1,10 @@
 import { BarChart, Loader2 } from 'lucide-react'
-import React from 'react'
-import { Cell, Pie, PieChart, ResponsiveContainer, Tooltip } from 'recharts'
+import { Cell, Pie, PieChart, ResponsiveContainer } from 'recharts'
 import colors from 'tailwindcss/colors'
 import {
   Card,
-  CardContent,
-  CardDescription,
-  CardHeader,
-  CardTitle,
+  CardContent, CardHeader,
+  CardTitle
 } from '../../../components/ui/card'
 import { getPopularProducts } from '../../../api/get-popular-products'
 import { useQuery } from '@tanstack/react-query'

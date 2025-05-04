@@ -1,5 +1,4 @@
 import { test, expect } from '@playwright/test'
-import { wait } from '@testing-library/user-event/dist/cjs/utils/index.js'
 
 test('update profile sucessfully', async ({ page }) => {
   await page.goto('/', { waitUntil: 'networkidle' })

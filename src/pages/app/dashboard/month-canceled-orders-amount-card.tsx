@@ -1,5 +1,4 @@
 import { DollarSign } from 'lucide-react'
-import React from 'react'
 import {
   Card,
   CardContent,

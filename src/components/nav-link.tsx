@@ -1,4 +1,3 @@
-import React from "react";
 import { Link, type LinkProps, useLocation } from "react-router-dom";
 
 export type NavLinkProps = LinkProps;

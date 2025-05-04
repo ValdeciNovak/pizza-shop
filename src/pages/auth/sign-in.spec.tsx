@@ -1,5 +1,4 @@
 import { render } from '@testing-library/react'
-import { NavLink } from './nav-link'
 import { MemoryRouter } from 'react-router-dom'
 import { SignIn } from './sign-in'
 import { QueryClientProvider } from '@tanstack/react-query'
@@ -27,4 +26,4 @@ describe('SignIn', () => {
 
     expect(emailInput.value).toEqual('johndoe@exemple.com')
   })
-})
+})p
