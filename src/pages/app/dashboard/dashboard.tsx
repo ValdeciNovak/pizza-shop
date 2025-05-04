@@ -1,12 +1,4 @@
-import { DollarSign } from "lucide-react";
-import React from "react";
 import { Helmet } from "react-helmet-async";
-import {
-  Card,
-  CardContent,
-  CardHeader,
-  CardTitle,
-} from "../../../components/ui/card";
 import { DayOrdersAmountCard } from "./day-orders-amount-card";
 import { MonthCanceledOrdersAmountCard } from "./month-canceled-orders-amount-card";
 import { MonthOrdersAmountCard } from "./month-orders-amount-card";

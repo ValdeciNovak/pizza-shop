@@ -1,5 +1,4 @@
 import { Home, Pizza, UtensilsCrossed } from "lucide-react";
-import React from "react";
 import { Separator } from "./ui/separator";
 
 import { AccountMenu } from "./account-menu";
